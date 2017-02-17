@@ -1,0 +1,25 @@
+{
+  "name": "php-bicycle/php-bicycle-test-tools"
+  , "type": "library"
+  , "description": "Test tools for all bicycle projects."
+  , "keywords": [ "alternative", "bicycle", "util", "testing"]
+  , "homepage": "https://github.com/pqbd/php-bicycle-delegate"
+  , "license": "BSD-3-Clause"
+  , "authors": 
+  [
+    {
+      "name": "Alexander Volkov"
+      , "email": "alx.volkov@gmail.com"
+      , "homepage": "http://volkov.cz"
+      , "role": "lead"
+    }
+  ]
+  , "autoload": { "psr-4": { "bicycle\\": "src/bicycle/" } }
+  , "minimum-stability": "dev"
+  , "extra": { "branch-alias": { "dev-master": "1.0-dev" } }
+  , "require": 
+  {
+    "php": ">=5.3.9"
+    , "phpunit/phpunit": "~4.5"
+  }
+}
